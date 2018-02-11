@@ -1,0 +1,257 @@
+
+
+
+
+.pic2 img{
+	bottom: 0px;
+	top: -40px;
+	right: 800px;
+	z-index: 1;
+	width: 
+	line-height: 
+}
+
+.statue img{
+	bottom: 120px;
+	right: 560px;
+	z-index: 1;
+}
+
+.airmax img{
+	bottom: 120px;
+	right: 500px;
+	z-index: 1;
+
+
+}
+
+
+img {
+	position: relative;
+	top: 200px
+	left: 1250px ;
+    z-index: 2;
+    padding-left: 800px;
+    padding-top: 50px;
+
+}
+
+.twenty {
+	position: absolute;
+	font-family: "Futura-CondensedExtraBold", sans-serif;
+	font-size: 325px;
+	letter-spacing: 10px;
+	font-weight: 100;
+	color: rgba(0, 55, 198, 0.4);
+	top: -120px;
+	padding-bottom: -85px;
+	margin-left: 350px;
+	z-index: 2;
+}
+
+.sixteen {
+	position: absolute;
+	font-family: "Futura-CondensedExtraBold", sans-serif;
+	font-size: 325px;
+	letter-spacing: 10px;
+	font-weight: 100;
+	color: rgba(0, 55, 198, 0.4);
+	top: 160px;
+	padding-bottom: -85px;
+	margin-left: 350px;
+	z-index: 2;
+}
+
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	font-family: "Futura-CondensedExtraBold", sans-serif;
+	z-index: ;
+	color: white;
+	padding-left: 0px;
+	padding-top: 0px;
+
+}
+
+.box{
+	position: absolute;
+	width: 80vw;
+	height: 750vh;
+	top: -80px;
+	left: -30px;
+	background-color: white;
+	(opacity)background: rgba(255, 255, 255, 0.9);
+	padding: 40px;
+	text-align: left;
+	margin: auto;
+	margin-top: 5%;
+	color: black;
+	font-family: 'Futura-CondensedExtraBold';
+}
+
+.box2{
+	position: absolute;
+	width: 450px;
+	height: 500px;
+	top: -50px;
+	left: 870px;
+	opacitybackground: rgba(0, 0, 0, 0.8);
+	padding: 40px;
+	text-align: left;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Futura-CondensedExtraBold';
+}
+
+
+.box-img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	right: 20px;
+	padding: 600px;
+	padding-bottom: 300px;
+
+}
+
+
+
+.box h5{
+	position: absolute;
+	font-size: 205px;
+	letter-spacing: 1px;
+	font-weight: 100;
+	color: #0652DD;
+	top: -270px;
+	padding-bottom: -95px;
+	margin-left: 400px;
+	z-index: 2;
+}
+
+.box h3{ 
+	position: absolute;
+	font-size: 85px;
+	letter-spacing: 1px;
+	font-weight: 100;
+	color: #0652DD;
+	margin-top: 230px;
+	padding-bottom: -75px;
+	margin-left: 375px;
+
+	z-index: 2;
+}
+
+.box h2{ 
+	position: absolute;
+	font-size: 85px;
+	letter-spacing: 1px;
+	font-weight: 100;
+	color: #0652DD;
+	margin-top: 230px;
+	padding-bottom: -85px;
+	margin-left: 10px;
+	z-index: 2;
+}
+
+.box h4{ 
+	position: absolute;
+	color: #0652DD;
+	top: 750px;
+	margin-left: 530px;
+
+	z-index: 2;
+}
+
+.box h6{
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 300px;
+	padding-bottom: 50px;
+	padding-top: 420px;
+	margin-left: 480px;
+	margin-right: 0px;
+
+}
+
+.box h1{
+	text-align: left;
+	font-size: 90px;
+	margin-top: 350px;
+
+}
+
+.box p{
+	text-align: ;
+	padding-right: 300px;
+	padding-bottom: 0px;
+	padding-top: 420px;
+	margin-left: 480px;
+	margin-right: 0px;
+
+}
+
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	line-height: 4px;
+	background: #0652DD;
+	z-index: 5;
+}
+
+.snkr img{
+	position: absolute;
+	top: -200px
+	left: 350px ;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    z-index: -1
+
+}
+
+video#empire { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(empire.mp4) no-repeat;
+    background-size: cover; 
+}
+
+@media(max-width: 550px) {  /* Any window smaller than this px width gets the following CSS rules */
+  /* Rules go here */
+  h5 {
+    font-size: 12px;
+  }
+
+  	body{
+  		background-image: url("collage.jpg");
+  		background-color: pink;
+  	}
+
+  h2 {
+    display: block;
+  }
+
+  h5 {
+    display: block;
+  }
+
+  h3 {
+    display: block;
+  }
+
+  p {
+  	display: inline-block;
+  }
+}
+
