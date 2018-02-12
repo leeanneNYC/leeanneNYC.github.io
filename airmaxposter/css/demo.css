@@ -1,0 +1,316 @@
+body { 
+ background-color: white;
+ margin: 0;
+ padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1.YEAR {
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40vw;
+    text-align: center;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    z-index: 1;
+}
+
+
+.YEAR {
+    background: url('../images/airmax.gif')no-repeat;
+}
+
+h1 .experience {
+    font-size: 35vw;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    background-color: white; 
+    text-align: center; 
+    vertical-align: middle; 
+    padding:20px 47px;
+    
+}
+
+h2 {
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 10vw;
+    color: #ff4757;
+    padding-left: 16vw;
+    padding-top: 5vh;
+
+}
+
+h3 {
+    position: absolute;
+    font-size: 3vw;
+    color: #3742fa;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    padding-bottom: 30vh;
+    padding-left: 10vw;
+}
+
+h3.two {
+    position: absolute;
+    font-size: 3vw;
+    color: #3742fa;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    padding-left: 20vw;
+    bottom: -370px;
+}
+
+h3.three {
+    position: absolute;
+    font-size: 3vw;
+    color: #3742fa;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    padding-left: 42vw;
+}
+
+h3.four {
+    position: absolute;
+    font-size: 3vw;
+    color: rgba(42, 100, 203, 0.5);
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    padding-bottom: 30vh;
+    padding-left: 20vw;
+}
+
+h3.five {
+    position: absolute;
+    font-size: 3vw;
+    color: #ff6b81;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    bottom: -310px;
+    padding-left: 30vw;
+}
+
+h3.six {
+    position: absolute;
+    font-size: 3vw;
+    color: rgba(42, 100, 203, 0.5);
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    padding-bottom: 30vh;
+    padding-left: 10vw;
+}
+
+h3.seven {
+    position: absolute;
+    font-size: 3vw;
+    color: rgba(179, 40, 155, 0.5);
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    padding-left: 40vw;
+}
+
+h4 {
+    position: absolute;
+    font-size: 14px;
+    font-family: "futura";
+    color: #2f3542;
+    text-align: left; 
+    top:73vh;
+    margin-left: 70vw;
+    margin-right: 10vw;
+
+    
+}
+
+h4.snkrs {
+    position: absolute;
+    font-size: 14px;
+    font-family: "futura";
+    color: #2f3542;
+    text-align: left; 
+    top: 48vh;
+    margin-left: 70vw;
+    margin-right: 10vw;
+
+    
+}
+
+h4.address {
+    position: absolute;
+    font-size: 13px;
+    font-family: "futura";
+    color: #2f3542;
+    text-align: left; 
+    top: 205vh;
+    margin-left: 35vw;
+    margin-right: 10vw;
+
+    
+}
+
+h5 {
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 10vw;
+    color: #ff4757;
+    padding-left: 25vw;
+    padding-top: 100vh;
+
+    
+}
+
+h6 {
+    position: absolute;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    font-size: 3vw;
+    color: #ff4757;
+    padding-left: 35vw;
+    padding-top: 185vh;
+
+}
+
+
+
+.statue img{
+    margin-top: 70vh;
+    margin-left: 39vw;
+
+}
+
+.background-container img{
+    position: absolute;
+    bottom: -1080px;
+    right: 800px;
+    z-index: -1;
+
+
+}
+
+
+
+
+   
+
+@media (max-width: 550px) {  /* Any window smaller than this px width gets the following CSS rules */
+  /* Rules go here */
+
+h2 {
+    font-size: 10vw;
+    width: 100%;
+    color: #3742fa;
+  }
+
+  .YEAR {
+    background: url('../images/airmaxday.gif')no-repeat;
+}
+
+.comms img{
+    position: absolute;
+    bottom: 60px;
+    right: 800px;
+    z-index: -1;  
+
+}
+
+body {
+    background: url('../images/collage01.jpg')no-repeat;
+    background-size: 
+
+}
+
+h4.snkrs {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);;
+    font-size: 12px;
+    font-family: "futura";
+    color: #2f3542;
+    text-align: left; 
+    top: 48vh;
+    margin-left: 20vw;
+    margin-right: 15vw;
+    padding: 15px;
+
+    }
+
+h4.address {
+    position: absolute;
+    font-size: 12px;
+    font-family: "futura";
+    color: #2f3542;
+    text-align: left; 
+    top: 135vh;
+    margin-left: 20vw;
+    margin-right: 25vw;
+
+    
+}
+
+h4 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-family: "futura";
+    color: #2f3542;
+    text-align: left; 
+    top: 70vh;
+    margin-left: 10vw;
+    margin-right: 25vw;
+    padding: 15px;
+
+    }
+
+h3 {
+    font-size: 4vw;
+    color: white;
+    padding-left: 18vw;
+    bottom: 33vh;
+
+}
+
+
+h6 {
+    position: absolute;
+    font-family: "Futura-CondensedExtraBold", sans-serif;
+    font-size: 5vw;
+    color: #ff4757;
+    padding-left: 23vw;
+    padding-top: 126vh;
+
+}
+
+h5 {
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 8vw;
+    color: #ff4757;
+    padding-left: 2vw;
+    padding-top: 105vh;
+
+    
+}
+
+.statue img{
+    margin-top: 70vh;
+    margin-left: 39vw;
+
+}
+
+
+.background-container {
+    background-image: url("comms.jpg");
+    width: 100%;
+    position: absolute;
+    bottom: 560px;
+    right: 90px;
+    z-index: -1;
+
+
+
+}
+
+
+
+
+
