@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body { 
+	width: 80vw;
+	margin-left: 5vw;
+	background-color: #FEFAEE
+}
+
+
+h1 {
+	font-family: 'Changa One', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;	
+}
+
+h2 {
+	font-family: 'Changa One', cursive;
+	margin-top: 0;
+	margin-bottom: 26px;
+	color: #FF4233
+}
+
+h3 {
+	font-family: 'Abel', sans-serif;
+	margin-top: 0;
+	margin-bottom: 23px;
+}
+
+.list {
+	font-family: 'Abel', sans-serif;
+	margin-top: 0;
+	margin-bottom: 23px;
+	padding-left: 5vw;
+	font-size: 4vw;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	font-size: 17px;
+	line-height: 23px;
+	text-indent: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+
+.pullquote {
+	color: black;
+	font-family: 'Changa One', cursive;
+	font-size: 25px;
+	line-height: 30px;
+	text-indent: 0;
+	padding-left: 5vw;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+img {
+	width: 80vw; 
+	margin-left: -10vw;
+}
+
+
+
