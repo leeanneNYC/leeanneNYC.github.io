@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding-top: 2vh;
+}
+
+
+body { 
+	width: 80vw;
+	margin-left: 5vw;
+	background-color: white;
+	background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-size: 100%;
+}
+
+.what {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 5vw;
+	font-weight: bold;
+	margin-top: 22vh;
+	margin-bottom: 25px;	
+	color: white;
+
+}
+
+.ig {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 9vw;
+	font-weight: bold;
+	margin-top: 22vh;
+	margin-bottom: 25px;	
+	color: white;
+
+}
+
+.zara {
+	position: absolute;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 6vw;
+	font-weight: bold;
+	margin-top: 10vh;
+	margin-bottom: 25px;	
+	color: #03F22B
+
+}
+
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 14vw;
+	font-weight: bold;
+	margin-top: -3vh;
+	margin-bottom: 25px;	
+	color: white;
+}
+
+
+h2 {
+	font-family: 'Changa One', cursive;
+	margin-top: 0;
+	margin-bottom: 26px;
+	color: #FF4233
+}
+
+h3 {
+	font-family: 'Abel', sans-serif;
+	padding-left: 22vw;
+	margin-top: 23vh;
+	margin-bottom: 23px;
+}
+
+h4 {
+	font-family: 'Abel', sans-serif;
+	padding-left: 22vw;
+	margin-top: 0vh;
+	margin-bottom: 23px;
+}
+
+.list {
+	font-family: 'Abel', sans-serif;
+	margin-top: 0;
+	margin-bottom: 23px;
+	padding-left: 5vw;
+	font-size: 4vw;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	padding-left: 22vw;
+	font-size: 15px;
+	line-height: 23px;
+	text-indent: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+
+.pullquote {
+	color: #7300F9;
+	font-family: 'Changa One', cursive;
+	font-size: 18px;
+	line-height: 20px;
+	text-indent: 0;
+	padding-left: 24vw;
+	margin-top: 28px;
+	margin-bottom: 25px;
+}
+
+img {
+	width: 80vw; 
+	margin-left: -10vw;
+}
+
+.asos2 {
+	width: 80vw; 
+	margin-left: 20vw;
+}
+
+.drake {
+	padding-top: 15vh;
+	width: 80vw; 
+	margin-left: 39vw;
+}
+
+.bella {
+	position: absolute;
+	width: 80vw; 
+	margin-left: -23vw;
+}
+
+.zpics2 {
+	position: absolute;
+	width: 80vw; 
+	margin-left: 3vw;
+}
+
+.zpics {
+	position: absolute;
+	width: 80vw; 
+	padding-top: 30vh;
+	margin-left: 23vw;
+}
+
