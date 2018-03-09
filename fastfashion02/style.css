@@ -1,0 +1,409 @@
+html, body {
+  margin: 0;
+  padding-top: 0vh;
+}
+
+
+body { 
+	margin-left: 5vw;
+	background-size: cover;
+	background-color: white;
+    background-repeat: no-repeat;
+    background-attachment:  ;
+ 	background-position: center center;
+}
+
+body.coverpage {
+  background-image: url(fastfashion.gif);
+ 	width: 90vw;
+	height: 87vh;
+}
+
+
+body.topshop {
+  background-image: url(topshop.gif);
+  	width: 90vw;
+	height: 78vh;
+}
+
+body.hmgif {
+  background-image: url(hm.gif);
+  	width: 90vw;
+	height: 78vh;
+}
+
+body.zaragif {
+  background-image: url(zara.gif);
+  	width: 90vw;
+	height: 78vh;
+}
+
+body.forever21 {
+  background-image: url(forever21.gif);
+  	width: 90vw;
+	height: 78vh;
+}
+
+
+body.ff {
+  background-image: url(fastfashion.gif);
+  	width: 100vw;
+	height: 65vh;
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+.dots {
+	position: absolute;
+	margin-top: 540vh;
+	margin-left: -20vw;
+	z-index: -2;
+
+}
+
+.greenbox {
+	position: absolute;
+	background-color: #32ff7e;
+	color: #32ff7e;
+	padding: 4px 14px;
+	width: 15vw;
+	margin-top: -4vh;
+
+
+}
+
+.firstline {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 5vw;
+	font-weight: bold;
+	margin-top: 35vh;
+	color: white;
+	background-color: #5f10ff;
+	padding: 10px 17px;
+	width: 25vw;
+
+}
+
+h3.business {
+
+	font-family: 'Abel', sans-serif;
+	margin-top: 22vh;
+	margin-bottom: 23px;
+	background-color: #32ff7e;
+	width: 75%;
+	padding: 15px 5px;
+	padding-left: 7vw;
+	padding-right: 7vw;
+	margin-left: vw;
+
+}
+
+.title {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 17vw;
+	margin-top: 25vh;
+	margin-left: -9vw;
+	color: white;
+	background-color: #5f10ff;
+	padding: 10px 49px;
+	width: 53vw;
+
+}
+
+.smallertitle {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 12vw;
+	margin-top: 25vh;
+	margin-left: -9vw;
+	color: white;
+	background-color: #5f10ff;
+	padding: 10px 49px;
+	width: 60vw;
+
+}
+
+.smalltab {
+	position: absolute;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 3vw;
+	font-weight: bold;
+	margin-top: -9vh;
+	margin-bottom: 25px;	
+	color: #32ff7e;
+	width: 45vw;
+
+}
+
+h1 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 14vw;
+	font-weight: bold;
+	margin-top: -3vh;
+	margin-bottom: 25px;	
+	color: white;
+	background-color: #5f10ff;
+	padding: 10px 20px;
+	width: 90vw;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+	padding-left: 5vw;
+	padding-right: 15vw;
+	font-size: 17px;
+	line-height: 23px;
+	text-indent: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 2vw;
+
+}
+
+.purplebox {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 14vw;
+	font-weight: bold;
+	margin-top: 3vh;
+	margin-bottom: 25px;	
+	color: white;
+	background-color: #5f10ff;
+	padding: 10px 20px;
+	width: 90vw;
+}
+
+.whatis {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 13vh;
+	margin-bottom: px;	
+	margin-left: -10vw;
+	color: white;
+	background-color: #5f10ff;
+	padding: 7px 40px;
+	width: 59vw;
+}
+
+.zaratab {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10vh;
+	margin-bottom: px;	
+	color: black;
+	background-color: #32ff7e;
+	padding: 7px 10px;
+	width: 55vw;
+	margin-left: 20vh;
+}
+
+.hmtab {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 8vh;
+	margin-bottom: px;	
+	color: black;
+	background-color: #32ff7e;
+	padding: 7px 10px;
+	padding-left: 20vh;
+	width: 20vw;
+	margin-left: -10vh;
+}
+
+.forever21tab {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 6vh;
+	margin-bottom: px;	
+	color: black;
+	background-color: #32ff7e;
+	padding: 7px 10px;
+	width: 55vw;
+	margin-left: 20vh;
+}
+
+.topshoptab {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 8vh;
+	margin-bottom: px;	
+	color: black;
+	background-color: #32ff7e;
+	padding: 7px 10px;
+	padding-left: 20vh;
+	width: 35vw;
+	margin-left: -10vh;
+}
+
+
+
+
+
+h2 {
+	font-family: 'Changa One', cursive;
+	margin-top: 0;
+	margin-bottom: 26px;
+	color: #FF4233
+}
+
+h3 {
+	font-family: 'Abel', sans-serif;
+
+	margin-top: 27vh;
+	margin-bottom: 23px;
+	background-color: #32ff7e;
+	width: 85%;
+	padding: 15px 5px;
+	padding-left: 7vw;
+	padding-right: 7vw;
+	margin-left: vw;
+
+
+}
+
+.definition {
+	font-family: 'Abel', sans-serif;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-top: 23vh;
+	margin-bottom: 23px;
+	background-color: #32ff7e;
+	width: 80vw;
+	padding: 5px 20px;
+}
+
+
+h5 {
+	font-family: 'Abel', sans-serif;
+	font-size: 8vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-top:10vh;
+	margin-bottom: 23px;
+	width: 70vw;
+	padding: 5px 20px;
+}
+
+.top {
+	font-family: 'Abel', sans-serif;
+	padding-left: 15vw;
+	margin-left: 25vw;
+	padding-right: 5vw;
+	margin-top: 3vh;
+	margin-bottom: 10px;
+	background-color: #32ff7e;
+	width: 20vw;
+	padding: 5px 20px;
+}
+
+.history {
+	font-family: 'Abel', sans-serif;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-top: 10vh;
+	margin-bottom: 13px;
+	background-color: #32ff7e;
+	width: 15vw;
+	padding: 5px 20px;
+}
+
+
+h4 {
+	font-family: 'Abel', sans-serif;
+	font-size: 8vw;
+	padding-left: 5vw;
+	margin-top: 0vh;
+	margin-bottom: 23px;
+	background-color: #32ff7e
+	width: 30vw;
+	padding: 5px 20px;
+}
+
+.list {
+	font-family: 'Abel', sans-serif;
+	margin-top: 0;
+	margin-bottom: 23px;
+	padding-left: 5vw;
+	font-size: 4vw;
+}
+
+
+
+
+.pullquote {
+	color: #7300F9;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 22px;
+	line-height: 27px;
+	text-indent: 0;
+	padding-left: 10vw;
+	padding-right: 20vw;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+img {
+	width: 80vw; 
+	margin-left: 4vw;
+}
+
+.asos2 {
+	width: 80vw; 
+	margin-left: 20vw;
+}
+
+.drake {
+	padding-top: 5vh;
+	width: 80vw; 
+	margin-left: 29vw;
+}
+
+.bella {
+	position: absolute;
+	width: 80vw; 
+	margin-left: -23vw;
+}
+
+.zpics2 {
+	position: absolute;
+	width: 80vw; 
+	margin-left: 3vw;
+}
+
+.zpics {
+	position: absolute;
+	width: 80vw; 
+	padding-top: 30vh;
+	margin-left: 23vw;
+}
+
+.hm {
+	padding-top: vh;
+	width: 80vw; 
+	margin-left: vw;
+}
+
+
+
+
+
+@media(min-width: 550px) {
+	body {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+
+
+}
