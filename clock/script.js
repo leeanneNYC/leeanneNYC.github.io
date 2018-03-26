@@ -8,7 +8,7 @@ $(document).ready(function() {
   	 $(".e") .addClass("alarming");
   	 //$("body").addClass("alarming");
 
-  }, 1000);
+  }, 3000);
 
 
   	$(".button").click(function(){
