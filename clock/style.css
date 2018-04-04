@@ -1,8 +1,13 @@
+html, body {
+  position: absolute;
+  top: 0; left: 0;
+}
 body { 
   margin: 0;
   padding: 0;
   background-image: url("subwaybg.png");
   background-color: white;
+  top: 0;
 }
 
 .hour {
@@ -21,6 +26,8 @@ body {
   animation-name: hour;
   animation-duration: 25s;
   animation-iteration-count: infinite;  
+  z-index: 1;
+  animation-timing-function: steps(1,start);
 }
 
 .minute {
@@ -39,6 +46,8 @@ body {
   animation-name: minute;
   animation-duration: 6s;
   animation-iteration-count: infinite;  
+    animation-timing-function: steps(1,start);
+
 }
 
 .second {
@@ -77,68 +86,129 @@ body {
 
 
 .wake-up-text {
+  position: absolute;
   color: white;
+  width: 100vw;
+  height: 100vh;
   font-family: 'Heebo', sans-serif;
   text-align: center;
-  border-color: green;
-  margin-top: 16vh;
-  margin-left: vw;
+  background-color: rgb(20,20,20);
+
   padding-left: 1vw;
   font-size: 150px;
   font-weight: 900;
   opacity: 0;
+  z-index: -1;
 }
 
 .e {
   position: absolute;
-  top: 32vw;
-  left: 10vw;
+  margin-top: 26vw;
+  left: 19vw;
   width: 6vw;
   height: 6vw;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-image: url(E.png);
   background-size: contain;
   background-position: center center;  
   background-repeat: no-repeat;
   opacity: 0;
+  z-index: 12;
 }
 
 .w4 {
+  background-color: #17ce35;
   position: absolute;
-  background-color: ;
   color: black;
   font-family: 'Heebo', sans-serif;
-  margin-top: 7vh;
-  margin-left: 17vw;
+  margin-top: 45vh;
+  margin-left: 27vw;
   font-size: 40px;
   padding: 3vw;
   font-weight: 500;
+  border-radius: 20px;
   opacity: 0;
+  z-index: 12;
 }
+
+
 
 .min {
   position: absolute;
   color: black;
-  background-color: #3d3d3d;
+  background-color: #17ce35;
   font-family: 'Heebo', sans-serif;
-  margin-top: 7vh;
-  margin-left: 42vw;
+  margin-top: 45vh;
+  margin-left: 52vw;
   font-size: 40px;
   padding: 3vw;
   font-weight: 300;
+  border-radius: 20px;
   opacity: 0;
+  z-index: 12;
+}
+
+.f {
+  position: absolute;
+  margin-top: 38vw;
+  left: 19vw;
+  width: 6vw;
+  height: 6vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background-image: url(F.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 12;
+}
+
+.carroll {
+  background-color: #17ce35;
+  position: absolute;
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  margin-top: 70vh;
+  margin-left: 27vw;
+  font-size: 40px;
+  padding: 3vw;
+  font-weight: 500;
+  border-radius: 20px;
+  opacity: 0;
+  z-index: 12;
+}
+
+
+
+.min2 {
+  position: absolute;
+  color: black;
+  background-color: #17ce35;
+  font-family: 'Heebo', sans-serif;
+  margin-top: 70vh;
+  margin-left: 52vw;
+  font-size: 33px;
+  padding: 3vw;
+  width: 100px;
+  height: 60px;
+  font-weight: 300;
+  border-radius: 20px;
+  opacity: 0;
+  z-index: 12;
 }
 
 .button {
   background-color: #17ce35; 
   border-radius: 80px;
-  margin-top: 8vh;
-  margin-left: 65vw;
-  padding-left: 8vw;
+  margin-top: 45vh;
+  margin-left: 67vw;
+  padding-left: 6vw;
   padding-top: 4vh;
-  width: 180px;
+  width: 155px;
   height: 100px;
   cursor: pointer;
   color: white;
@@ -146,15 +216,23 @@ body {
   font-size: 55px;
   font-weight: bold;
   opacity: 0;
+  
 }
 
 .alarming {
-  background-color: #17ce35;
   opacity: 1;
   animation-name: pulse;
   animation-duration: 1s;
   animation-iteration-count: infinite;
 
+}
+
+.show {
+  opacity: 1 !important;
+}
+
+.remove {
+  opacity: 0;
 }
 
 
